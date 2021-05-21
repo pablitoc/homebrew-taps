@@ -1,9 +1,9 @@
-class HelmAT32 < Formula
+class HelmAT31 < Formula
   desc "Kubernetes package manager"
   homepage "https://helm.sh/"
   url "https://github.com/helm/helm.git",
-      :tag      => "v3.2.4",
-      :revision => "0ad800ef43d3b826f31a5ad8dfbb4fe05d143688"
+      :tag      => "v3.1.3",
+      :revision => "0a9a9a88e8afd6e77337a3e2ad744756e191429a"
   head "https://github.com/helm/helm.git"
 
   depends_on "go" => :build
