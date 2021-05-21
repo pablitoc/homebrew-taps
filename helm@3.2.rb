@@ -6,12 +6,6 @@ class HelmAT32 < Formula
       :revision =>"0ad800ef43d3b826f31a5ad8dfbb4fe05d143688"
   head "https://github.com/helm/helm.git"
 
-  bottle do
-    sha256 cellar: :any_skip_relocation, big_sur:       "5dac5803c1ad2db3a91b0928fc472aaf80a48821a0293fea78f392a5c604772b"
-    sha256 cellar: :any_skip_relocation, catalina:      "4462d2d90ea756ae5fcaa3550053542748678baf91a74ee9e26e5e101c3389c7"
-    sha256 cellar: :any_skip_relocation, mojave:        "abe29810ff4a9099ef48fbc240b5b4b06359d7422efd66418b2c82682367fccc"
-  end
-
   depends_on "go" => :build
 
   def install
