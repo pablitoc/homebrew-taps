@@ -1,4 +1,4 @@
-class HelmAT32 < Formula
+class Helm < Formula
   desc "Kubernetes package manager"
   homepage "https://helm.sh/"
   url "https://github.com/helm/helm.git",
